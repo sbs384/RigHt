@@ -32,7 +32,7 @@ Run the script "scripts/squad/1_min_hard_neg".
 #### 4. Train the cross-encoder to rectify the mislabeling of false negative samples.
 Run the script "scripts/squad/2_cross_rerank".
 
-### 5. Utilize both InTeR and DRIve mechanism to enhance the training of the dual-encoder model with hard negative samples.
+#### 5. Utilize both InTeR and DRIve mechanism to enhance the training of the dual-encoder model with hard negative samples.
 Run the script "scripts/squad/adv_kd_final".
 
 ## License and Disclaimer
