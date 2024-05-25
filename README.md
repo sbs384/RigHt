@@ -21,7 +21,10 @@ Due to the lack of mlm head parameters in biobert-base-cased-v1.1 we mix the bio
 We show the example of running scripts on SQuAD dataset. 
 
 #### 1. Convert the SQuAD dataset for training
-Run the script "retriever/SQuAD/convert.ipynb".
+Run the script "retriever/SQuAD/convert.ipynb" to change the dataset format to a general one.
+Preprosess the dataset through "retriever/SQuAD/preprocess.py", including tokenization, truncation and transformation.
+
+It is mostly the same for BioASQ datasets, except for that BioASQ uses variable validation sets following the 5-Fold setting, while SQuAD uses a fixed dev set.
 
 #### 2. Train the basic dual-encoder
 Run the script "scripts/squad/0_base_prepare.sh".
