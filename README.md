@@ -15,7 +15,7 @@ Our experiment is conducted on a NVIDIA RTX 3090 24G with CUDA version 11.6.
 We follow [RBAR](https://github.com/Ba1Jun/BioReQA) to process data. The dataset and scripts can be found in their repo.
 
 ## Models
-Due to the lack of mlm head parameters in biobert-base-cased-v1.1 we mix the biobert-base-cased-v1.1 and biobert-base-cased-v1.2 for the training process on ReQA BioASQ datasets using the InTeR and DRIve mechanism. The mix process is realized by running the script "tools/mix_model.ipynb".
+Due to the lack of mlm head parameters in biobert-base-cased-v1.1 we mix the biobert-base-cased-v1.1 and biobert-base-cased-v1.2 for the training process using the InTeR and DRIve mechanism on ReQA BioASQ datasets. The mix process is realized by running the script "tools/mix_model.ipynb".
 
 ## Example
 We show the example of running scripts on SQuAD dataset. 
