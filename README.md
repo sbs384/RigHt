@@ -21,7 +21,7 @@ Due to the lack of mlm head parameters in biobert-base-cased-v1.1 we mix the bio
 We show the example of running scripts on SQuAD dataset. 
 
 #### 1. Convert the SQuAD dataset for training
-Run the script "examples/retriever/SQuAD/convert.ipynb".
+Run the script "retriever/SQuAD/convert.ipynb".
 
 #### 2. Train the basic dual-encoder
 Run the script "scripts/squad/0_base_prepare.sh".
@@ -33,7 +33,7 @@ Run the script "scripts/squad/1_min_hard_neg".
 Run the script "scripts/squad/2_cross_rerank".
 
 #### 5. Utilize both InTeR and DRIve mechanism to enhance the training of the dual-encoder model with hard negative samples.
-Run the script "scripts/squad/adv_kd_final".
+Run the script "scripts/squad/3_adv_kd_final".
 
 ## License and Disclaimer
 Please see the LICENSE file for details. Downloading data indicates your acceptance of our disclaimer.
