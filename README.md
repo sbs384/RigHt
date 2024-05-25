@@ -2,6 +2,8 @@
 This repository provides the PyTorch implementation of our paper "Rectifying and Discriminating Hard Negatives for
 Retrieval Question Answering".
 
+Some of the codes are borrowed from [RetroMAE](https://github.com/staoxiao/RetroMAE) and [DHR](https://github.com/castorini/dhr), and we really appreciate their works.
+
 ## Environment
 We mainly rely on these packages:
 ```bash
